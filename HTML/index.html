@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio </title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="https://kit.fontawesome.com/7b7f806779.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    
+    <div id="header">
+        
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+           
+                
+                
+                    <li><a href="#home">Home</a></li>
+                     <li><a href="#about">About</a></li>
+                      <li><a href="#services">Services</a></li>
+                       <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+
+            </ul>
+               <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav> 
+            <dev class="header-text">
+                <p>UI/UX Designer</p>
+                <h1> Hi I'm <span>Hilal</span><br>Khan from Pakistan</h1>
+            </dev>  
+        </div>
+    </div> 
+    <!-------about------> 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="images/user.jpeg">
+            </div>
+
+                <div class="about-col-2">
+                <h1 class="title">About Me</h1>
+                <p class="bag">As a UI/UX designer, I combine user research, design thinking, and visual design to create intuitive interfaces and meaningful digital experiences. I’m skilled in tools like Figma, Adobe XD, and Illustrator, and I’m always looking for new ways to improve accessibility and design impact.</p>
+             <div class="sub-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                 <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                  <p class="tab-links" onclick="opentab('education')">Education</p>
+             </div>   
+             <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li class="box"><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                    <li class="box"><span>Web Development</span><br> Web App Developments</li>
+                    <li class="box"><span>App Development</span><br>Building Android/IOS apps</li> 
+                </ul>
+             </div>
+             <div class="tab-contents" id="experience">
+                <ul>
+                    <li class="box"><span>2022 - 2023</span><br>Internship at DigitalSkills.pk</li>
+                    <li class="box"><span>2023 - 2025</span><br> UIUX Design Executive at LUMS Institute</li>
+                    <li class="box"><span>2024 - Current</span><br>UI/UX designing at NCA Institute</li> 
+                </ul>
+             </div>
+             <div class="tab-contents" id="education">
+                <ul>
+                    <li class="box"><span>2018</span><br>BSCS Degree from FAST Islamabad</li>
+                    <li class="box"><span>2020</span><br>MS Degree in Software Engineering from FAST Islamabad</li>
+                    <li class="box"><span>2021</span><br>UI/UX Training from NUST Institute</li> 
+                    
+                </ul>
+             
+             </div>
+        </div>
+            </div>
+            </div>"
+        </div>
+    </div> 
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>I design and develop modern, responsive, and user-friendly websites that bring ideas to life. My focus is on creating visually appealing layouts with smooth user experiences, ensuring that every project reflects both creativity and functionality. Whether it’s a personal portfolio, business website, or landing page, I aim to deliver designs that are clean, fast, and fully optimized for all devices.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                     <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>I create simple, user-centered interface designs focused on improving usability and visual experience. My work involves understanding user needs, creating wireframes, and designing prototypes that balance creativity with functionality</p>
+                        <a  href="#">Learn more</a>
+                    </div>
+                     <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Design</h2>
+            <p>I design modern and intuitive mobile app interfaces focused on providing a seamless user experience. From concept to prototype, I craft visually appealing layouts that enhance usability, accessibility, and engagement across all screen sizes and platforms.</p>
+                        <a  href="#">Learn more</a>
+                    </div>
+                </div>
+            </h1>
+        </div>
+    </div>
+     <!------------portfolio--------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p class="icon">This app connects you to the talented people around the world.
+                            Download it from App store</p>
+                        <a href="#"><i  class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p class="icon">This app connects you to the talented people around the world.
+                            Download it from App store</p>
+                        <a href="#"><i  class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p class="icon">This app connects you to the talented people around the world.
+                            Download it from App store</p>
+                        <a href="#"><i  class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!----------contact---------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> hexists0@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> +92 03155617849</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/hilal_khttk?igsh=NXBweDRodWl6cnVr"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://x.com/hillokhan18?s=11"><i  class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://www.facebook.com/share/1BYKyahhEj/"><i class="fa-brands fa-square-facebook"></i></a>
+                    </div>
+                    <a href="images/HILAL KHAN CV.pdf" download class="btn btn2">Donwload CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    <div class="copyright">
+        <p> © 2025 Hilal Khan. Some rights reserved.<i class="fa-solid fa-copyright"></i>
+You may share this work with attribution, but not for commercial use.</p>
+    </div>
+    </div>
+        
+    </body>
+    </html>
+    
+
+    <script src="../JAVA/script.js">
+
+   
+    </script>
+
+                
+                    
+               
+</body>
+</html>
+                
+                
+                
+
+       
